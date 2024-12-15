@@ -57,12 +57,6 @@ The experiment aimed to:
 - **High Security**:  
    SQL Injection attempts were blocked, and no sensitive data was exposed. Protection mechanisms, such as input sanitization and query parameterization, effectively blocked the attack.
 
-## Screenshots
-You can find the detailed screenshots of the testing process in the repository. These include Burp Suite traffic interception, server responses, and SQL Injection attempts at different security levels.
-
-- **Fig. 1**: Burp Suite Interception Configuration (Low Security).
-- **Fig. 2**: SQL Injection Attempt on Medium Security.
-- **Fig. 3**: Burp Suite Showing Blocked Request (High Security).
 
 ## Conclusion
 This experiment demonstrated how SQL Injection vulnerabilities can be exploited at different security levels of DVWA. It also highlighted the effectiveness of web application security mechanisms in preventing SQL Injection attacks.
